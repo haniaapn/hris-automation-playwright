@@ -21,7 +21,7 @@ jobs:
       run: npx playwright test
       env:
         BASE_URL: ${{ secrets.BASE_URL }}
-        EMAIL: ${{ secrets.USERNAME }}
+        EMAIL: ${{ secrets.EMAIL }}
         PASSWORD: ${{ secrets.PASSWORD }}
     - name: Upload Playwright Report
       if: ${{ failure() }}
