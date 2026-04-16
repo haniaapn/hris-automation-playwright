@@ -1,0 +1,6 @@
+[
+  { "email": "", "password": "" },
+  { "email": "wrong@mail.com", "password": "123456" },
+  { "email": "haniatesterlocallima@gmail.com", "password": "wrongpassword" },
+  { "email": "invalidformatemail.com", "password": "wxwxws" }
+]
